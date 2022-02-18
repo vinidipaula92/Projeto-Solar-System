@@ -6,7 +6,6 @@ class Title extends Component {
     const { headline } = this.props;
     return (
       <h2>
-        Planetas
         { headline }
       </h2>
     );
@@ -16,6 +15,6 @@ Title.propTypes = {
   headline: PropTypes.string,
 };
 Title.defaultProps = {
-  headline: 'Planetas',
+  headline: '',
 };
 export default Title;
