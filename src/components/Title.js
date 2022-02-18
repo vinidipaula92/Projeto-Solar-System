@@ -12,9 +12,10 @@ class Title extends Component {
     );
   }
 }
-/* Title.propTypes = {
-  planetHead: PropTypes.shape ({
-    headline: PropTypes.string
-  })
-}; */
+Title.propTypes = {
+  headline: PropTypes.string,
+};
+Title.defaultProps = {
+  headline: 'Planetas',
+};
 export default Title;
